@@ -1,0 +1,46 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+/* Container styling */
+.image-container {
+    width: 50vw; 
+    height: 80vh; 
+    margin: 10vh auto; 
+    background-color: white;
+    text-align: center;
+    display: grid;
+    align-items: center;
+}
+
+/* Image styling */
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+/* Button styling */
+button {
+    width: 50vw; 
+    height: 8.5vh;
+    padding: 1vh;
+    font-size: 2.5vh; 
+    color: white;
+    background: linear-gradient(to right, orange, #25dc25);
+    cursor: pointer;
+    border: 0.3vh solid black;
+    margin-bottom: 4.7vh; 
+}
+
+
